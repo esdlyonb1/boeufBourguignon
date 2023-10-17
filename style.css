@@ -16,6 +16,7 @@ html,body{
     background-color: rgba(0, 128, 128, 0.57);
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding-left : 3vw;
     padding-right : 3vw;
 }
@@ -50,5 +51,47 @@ html,body{
 }
 .bgBocaux{
     background-image: url("images/8.png");
+
+}
+
+.burger{
+    border: white 4px solid;
+    width: 10vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8%;
+    cursor: pointer;
+}
+.steak{
+    border: 2px white solid;
+    width: 80%;
+    border-radius: 5%;
+
+}
+.menu{
+    height: 100vh;
+    width: 0;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+ transition: width 1s;
+
+}
+
+.ouvert{
+    width: 100vw;
+}
+
+.boutonMenu{
+    color: white;
+    font-weight: bolder;
+    font-size: 2.2em;
+    text-transform: uppercase;
 
 }

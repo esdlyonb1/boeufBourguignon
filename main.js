@@ -14,8 +14,9 @@ function change(){
 
     index++
 
-    landing.classList.add(backgrounds[index])
+    if(index >= backgrounds.length){ index = 0 }
 
+    landing.classList.add(backgrounds[index])
 
 }
 
