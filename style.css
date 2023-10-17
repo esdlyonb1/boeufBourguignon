@@ -79,13 +79,16 @@ html,body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: absolute;
- transition: width 1s;
+    transition: width 1s;
+    position : absolute
 
 }
 
 .ouvert{
     width: 100vw;
+}
+.ouvert>.boutonMenu{
+    display: block;
 }
 
 .boutonMenu{
@@ -93,5 +96,10 @@ html,body{
     font-weight: bolder;
     font-size: 2.2em;
     text-transform: uppercase;
+    cursor: pointer;
+    display: none;
+
+
+
 
 }
